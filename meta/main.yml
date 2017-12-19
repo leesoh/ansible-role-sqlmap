@@ -1,0 +1,22 @@
+galaxy_info:
+  author: liam somerville
+  description: Installs the sqlmap injection and database takeover tool.
+
+  license: BSD
+
+  min_ansible_version: 1.2
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+  galaxy_tags:
+  - pentest
+  - security
+
+  dependencies:
+    - leesoh.git
