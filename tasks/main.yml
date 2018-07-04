@@ -11,5 +11,5 @@
   file:
     state: link
     src: "{{ sqlmap_git_location }}/sqlmap/sqlmap.py"
-    path: /usr/bin/sqlmap
+    path: /usr/local/bin/sqlmap
 
